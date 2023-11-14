@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Lato&family=Lobster+Two&family=Montserrat&family=Mooli&family=Poppins&family=Prompt&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,600&family=Rosario:ital@1&display=swap');
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+.parallax-img1{
+    background-image: url(images/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-text{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.text-bg{
+    background: transparent;
+    color: white;
+    padding: 20px;
+}
+
+.text-bg2{
+    background: transparent;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: -35px;
+}
+
+.card{
+    width: 300px;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    /*background-color: rgb(13,49,88);
+    color: white;*/
+    background-color:white;
+    color: rgb(13,49,88);
+}
+
+.card-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.heading,.sub-heading{
+    color: rgb(13,49,88);
+    margin: 20px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 30px;
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.name-image img{
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-image .image2{
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.img-content{
+    width: 100px;
+}
+.team{
+    font-size: 14px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.name{
+    display:block;
+    padding: 0;
+    margin: 0;
+}
+
+.parallax-img2{
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-text2{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.parallax-img3{
+    background-image: url(images/2.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-text3{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.parallax-img3{
+    background-image: url(images/2.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-img4{
+    background-image: url(images3/uefa-champions-league-rergq5gltabhbbnw.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-text4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.grid{
+    display: grid;
+    row-gap: 20px; 
+    column-gap: 20px;
+    grid-template-areas: "I1 I2 I3"
+     "I4 I5 I6" ;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.item1{
+    width: 270px; 
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.item1 img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;   
+}
+
+.text{
+    color: rgb(13,49,88);
+    padding: 10px;
+}
+
+.item2{
+    width: 270px; 
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.item2 img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.content{
+    color: rgb(13,49,88);
+    padding: 10px;
+}
+
+.item3{
+    width: 270px;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.item3 img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.content{
+    color: rgb(13,49,88);
+    padding: 10px;
+}
+
+.item4{
+    width: 270px;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.item4 img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.content{
+    color: rgb(13,49,88);
+    padding: 10px;
+}
+
+.item5{
+    width: 270px;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.item5 img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.content{
+    color: rgb(13,49,88);
+    padding: 10px;
+}
+
+.item6{
+    width: 270px; 
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.item6 img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;   
+}
+
+.text{
+    color: rgb(13,49,88);
+    padding: 10px;
+}
+
+.item1{
+    grid-area: I1;
+}
+
+.item2{
+    grid-area: I2;
+}
+
+.item3{
+    grid-area: I3;
+}
+
+.item4{
+    grid-area: I4;
+}
+
+.item5{
+    grid-area: I5;
+}
+
+.item6{
+    grid-area: I6;
+}
